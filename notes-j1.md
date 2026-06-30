@@ -35,3 +35,18 @@ Le noyau minimal repose sur 4 outils (terminal, éditeur, navigateur, gestionnai
 
 <!-- Cette section doit être remplie À LA MAIN par l'apprenant (indicateur Qualiopi 11 — authenticité de l'auto-évaluation). -->
 
+npm test          # tests unitaires (vitest, SQLite in-memory)
+npm run build     # compilation TypeScript strict — détecte les erreurs de typage
+Il n'y a pas de linter (eslint, prettier) configuré dans ce dépôt. Ces deux commandes sont les seules vérifications automatisées disponibles.
+
+Conventions de nommage observées :
+
+Fonctions / variables : camelCase (listTickets, getTicket, updateTicketStatus)
+Types : PascalCase (Ticket, DB)
+Fichiers : un mot en minuscules, un fichier par responsabilité (config.ts, db.ts, tickets.ts, server.ts, seed.ts)
+Colonnes SQL : snake_case (created_at)
+Commentaires : en français, sans accents (// Retourne tous les tickets)
+Code et identifiants : en anglais (subject, status, open, closed)
+Commits : en français avec préfixes conventionnels (fix:, chore:, docs:)
+Imports : avec extension .js (requis par ESM)
+Ce que je ne peux pas affirmer : il n'y a pas de document de style explicite (pas d'eslint, prettier, ni de CONTRIBUTING.md). Ces conventions sont déduites du code existant, pas d'une règle formalisée.
