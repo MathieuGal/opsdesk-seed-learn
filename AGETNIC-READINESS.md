@@ -27,7 +27,7 @@
 | Branche / état | `[ex. main (seed) · etat/j1-fin]` |
 | Auteur du diagnostic | `[Mathieu]` |
 | **Date** | `[2026-06-21`|
-| **Score total** | **`[1]` / 12** |
+| **Score total** | **`[3]` / 12** |
 
 > Reporter ici **chaque passage** (score d'entrée à l'arrivée sur le seed, puis score après
 > J1.5, puis aux journées suivantes), **daté**, pour matérialiser la progression.
@@ -73,13 +73,13 @@
 
 | # | Dimension | Note (0/1/2) | Justification (1 ligne) + preuve (fichier / commande) |
 |---|-----------|--------------|--------------------------------------------------------|
-| 1 | Mémoire projet | `[0]` | `[Aucune mémoire]` |
+| 1 | Mémoire projet | `[2]` | `[Claude.md bien fait dans le repo]` |
 | 2 | Cibles vérifiables (tests / CI) | `[1]` | `[Quelque tests]]` |
 | 3 | Conventions explicites | `[0]` | `[Acune explication de convention]` |
 | 4 | Observabilité | `[0]` | `[Aucun log de changememnt]` |
 | 5 | Gouvernance (relecture / secrets) | `[0]` | `[Secret en clair]` |
 | 6 | Capitalisation | `[0]` | `[Aucune bibliothèteque de prompt ou de commande]` |
-| | **TOTAL** | **`[1]` / 12** | (reporter dans l'en-tête, daté) |
+| | **TOTAL** | **`[3]` / 12** | (reporter dans l'en-tête, daté) |
 
 ---
 
