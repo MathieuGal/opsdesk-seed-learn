@@ -1,0 +1,16 @@
+=== Test 1 : blocage attendu ===
+Date : 2026-07-03T11:25:58Z
+Fichier stage : test-secret-TEMP.txt
+Motif : opsdesk_live_
+Entree hook : {"tool_name":"Bash","tool_input":{"command":"git commit -m \"test: ajout cle api\""}}
+Sortie script : BLOQUÉ : secret potentiel détecté dans le contenu stagé.
+Code de sortie : 2
+(2 = blocage attendu)
+
+=== Test 2 : passage attendu ===
+Date : 2026-07-03T11:26:05Z
+Fichier stage : test-safe-TEMP.txt (sans secret)
+Entree hook : {"tool_name":"Bash","tool_input":{"command":"git commit -m \"test: compteur tickets\""}}
+Sortie script : <vide>
+Code de sortie : 0
+(0 = passage attendu)
